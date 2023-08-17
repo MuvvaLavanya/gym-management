@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn clean install sonar:sonar -Dsonar.projectKey=gym-docker -Dsonar.projectName='gym(docker)' -Dsonar.host.url=http://localhost:9000 -Dsonar.token=sqp_4d301d0f17e105319c3c84e34f7018823ab62e7e
+      run: mvn clean install sonar:sonar -Dsonar.projectKey=gym-docker- -Dsonar.projectName='gym(docker)' -Dsonar.host.url=http://localhost:9000 -Dsonar.token=sqp_4d301d0f17e105319c3c84e34f7018823ab62e7e
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
